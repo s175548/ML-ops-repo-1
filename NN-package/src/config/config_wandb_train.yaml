@@ -1,0 +1,10 @@
+batch_size:
+  value: 64
+lr:
+  value: 0.01
+n_epochs:
+  value: 10
+seed:
+  value: 123
+log_interval:
+  value: 100

@@ -1,0 +1,22 @@
+{
+    "os": "Darwin-20.6.0-x86_64-i386-64bit",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-01-10T11:19:24.040540",
+    "startedAt": "2022-01-10T11:19:21.771473",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/villadsstokbro/Dokumenter/DTU/MMC /1. semester/ML-ops/KG2/ML-ops-repo-1/NN-package/tests/test_train.py",
+    "codePath": "NN-package/tests/test_train.py",
+    "git": {
+        "remote": "https://github.com/s175548/ML-ops-repo-1.git",
+        "commit": "51f28bf6f92ae41e9444b527426c946108919dc9"
+    },
+    "email": "s175548@student.dtu.dk",
+    "root": "/Users/villadsstokbro/Dokumenter/DTU/MMC /1. semester/ML-ops/KG2/ML-ops-repo-1",
+    "host": "Villadss-MacBook-Pro-2.local",
+    "username": "villadsstokbro",
+    "executable": "/Users/villadsstokbro/opt/anaconda3/envs/ML-ops/bin/python"
+}

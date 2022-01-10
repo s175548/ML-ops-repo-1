@@ -1,0 +1,6 @@
+batch_size: 64
+lr: 0.01
+n_epochs: 3
+seed: 123
+wandb_env: offline
+test: true

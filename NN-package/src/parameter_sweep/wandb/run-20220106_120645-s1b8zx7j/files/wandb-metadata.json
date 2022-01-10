@@ -1,0 +1,25 @@
+{
+    "os": "Darwin-20.6.0-x86_64-i386-64bit",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-01-06T11:06:48.143095",
+    "startedAt": "2022-01-06T11:06:45.717686",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--learning_rate=0.0453288077829833",
+        "--optimizer=sgd"
+    ],
+    "state": "running",
+    "program": "../models/train_model_sweep.py",
+    "codePath": "NN-package/src/models/train_model_sweep.py",
+    "git": {
+        "remote": "https://github.com/s175548/ML-ops-repo-1.git",
+        "commit": "51f28bf6f92ae41e9444b527426c946108919dc9"
+    },
+    "email": "s175548@student.dtu.dk",
+    "root": "/Users/villadsstokbro/Dokumenter/DTU/MMC /1. semester/ML-ops/KG2/ML-ops-repo-1",
+    "host": "Villadss-MacBook-Pro-2.local",
+    "username": "villadsstokbro",
+    "executable": "/Users/villadsstokbro/opt/anaconda3/envs/ML-ops/bin/python"
+}

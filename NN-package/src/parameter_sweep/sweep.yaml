@@ -1,0 +1,17 @@
+program: ../models/train_model_sweep.py
+method: bayes
+metric:
+  name: validation_accuracy
+  goal: maximize
+parameters:
+  learning_rate:
+    min: 0.0001
+    max: 0.1
+  optimizer:
+    values: ["adam", "sgd"]
+  epochs:
+    value: 5
+  batch_size:
+    value: 64
+  log_interval:
+    value: 100

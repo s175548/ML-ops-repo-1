@@ -16,6 +16,10 @@ class MyAwesomeModel(nn.Module):
         self.fc3 = nn.Linear(84, 10)
 
     def forward(self, x):
+        if x.ndim != 4:
+            raise ValueError('Expected input to a 4D tensor')
+        if (x.shape[1] != 1) or (x.shape[2] != 28) or (x.shape[2] != x.shape[3]):
+            raise ValueError('Expected each sample to have shape [1, 28, 28]')
         x=x.type(torch.float32)
         x = self.pool(F.relu(self.conv1(x)))
         x = self.pool(F.relu(self.conv2(x)))

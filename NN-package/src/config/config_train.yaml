@@ -1,0 +1,9 @@
+hydra:
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+batch_size: 64
+lr: 0.01
+n_epochs: 10
+seed: 123
+wandb_env: 'online'
+test: False

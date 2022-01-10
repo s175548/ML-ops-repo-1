@@ -1,0 +1,6 @@
+hydra:
+  run:
+    dir: outputs/predict/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+batch_size: 16
+n_samples: 5000
+seed: 123

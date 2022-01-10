@@ -1,0 +1,3 @@
+batch_size: 16
+n_samples: 5000
+seed: 123
